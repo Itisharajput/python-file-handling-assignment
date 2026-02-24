@@ -15,11 +15,25 @@ This assignment demonstrates file handling operation in python including reading
 - Appends additional user input to the same file
 - Reads and displays final content of the file
 
+## Test Plan
+
+### Task 1
+- If sample.txt exists: file contents are printed.
+- If sample.txt does not exist: appropriate error message is shown.
+- Program always prints "File operation completed."
+
+### Task 2
+- User input is written to output.txt.
+- Additional input is appended successfully.
+- File contents are displayed correctly.
+- Any file-related error is handled gracefully.
+
 ## Concepts Used
 - File modes('r','w','a')
 - 'with open()' Context manager
 - 'try' and 'except'
 - Exception handling('FileNotFoundError')
 
+  
 ## Author
 Itisha Rajput
